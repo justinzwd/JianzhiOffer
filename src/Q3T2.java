@@ -22,7 +22,7 @@ public class Q3T2
         {
             int middle = start + (end - start) / 2;
             int count = countRange(arr,start,middle);
-            
+
             //如果其中一半数字出现的次数超过区间范围，说明此区间就存在重复的数字
             if (count > (middle - start + 1))
                 end = middle;
