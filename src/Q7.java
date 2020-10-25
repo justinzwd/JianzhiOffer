@@ -25,7 +25,6 @@ public class Q7
 
         BinaryTreeNode tree = new BinaryTreeNode(preOrder[startPre]);
 
-
         //找到根节点值在中序遍历数组的下标，以此划分左右子树
         int rootIndex = startIn;
         while(rootIndex <= endIn && inOrder[rootIndex] != tree.value)
